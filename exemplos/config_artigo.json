@@ -1,0 +1,13 @@
+{
+  "fs": 100,
+  "descarte": 48,
+  "sensor": "giroscopio",
+  "combinacao": "magnitude",
+  "banda": [1, 10],
+  "ordem": 4,
+  "tipo_filtro": "bandpass",
+  "tukey_alpha": 0.2,
+  "caracteristicas": "MAVSD,FMED,Kurtosis",
+  "tarefa": "Relaxed",
+  "punho": "Right"
+}

@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "Se usar este software, por favor cite-o como abaixo."
+title: "Análise de tremor por sensores inerciais de smartwatch"
+version: 1.0.0
+date-released: 2026-10-10
+license: MIT
+authors:
+  - family-names: "Silva"
+    given-names: "Arianne Viana Alves da"
+    affiliation: "Departamento de Engenharia Biomédica, Universidade Federal de Pernambuco"
+  - family-names: "Bastos"
+    given-names: "Arthur Coelho"
+    affiliation: "Faculdade de Engenharia Elétrica, Universidade Federal de Uberlândia"
+  - family-names: "Bongiovani"
+    given-names: "Leonardo"
+    affiliation: "Faculdade de Engenharia Elétrica, Universidade Federal de Uberlândia"
+  - family-names: "Marinho"
+    given-names: "Letícia"
+    affiliation: "Faculdade de Engenharia Elétrica, Universidade Federal de Uberlândia"
+  - family-names: "Faria"
+    given-names: "Melyssa Júlia Neres"
+    affiliation: "Faculdade de Engenharia Elétrica, Universidade Federal de Uberlândia"
+keywords:
+  - Doença de Parkinson
+  - giroscópio
+  - tremor
+  - processamento de sinais biomédicos
+references:
+  - type: dataset
+    title: "PADS - Parkinsons Disease Smartwatch dataset"
+    version: 1.0.0
+    doi: 10.13026/m0w9-zx22
+    year: 2024
+    publisher:
+      name: PhysioNet
+    authors:
+      - family-names: Varghese
+        given-names: J.
+      - family-names: Brenner
+        given-names: A.
+      - family-names: Plagwitz
+        given-names: L.
+      - family-names: van Alen
+        given-names: C.
+      - family-names: Fujarski
+        given-names: M.
+      - family-names: Warnecke
+        given-names: T.

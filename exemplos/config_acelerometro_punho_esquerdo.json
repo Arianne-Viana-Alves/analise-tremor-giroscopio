@@ -1,0 +1,6 @@
+{
+  "sensor": "acelerometro",
+  "punho": "Left",
+  "banda": [3, 7],
+  "caracteristicas": "MAVSD,FMED"
+}

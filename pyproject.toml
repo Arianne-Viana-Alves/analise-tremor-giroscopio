@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tremor"
+version = "1.0.0"
+description = "Extração de características e análise estatística de sinais inerciais de smartwatch para caracterização do tremor"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Arianne Viana Alves da Silva" },
+  { name = "Arthur Coelho Bastos" },
+  { name = "Leonardo Bongiovani" },
+  { name = "Letícia Marinho" },
+  { name = "Melyssa Júlia Neres Faria" },
+]
+keywords = ["Parkinson", "giroscópio", "tremor", "processamento de sinais", "PADS"]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "scikit-learn>=1.2",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+tremor = "tremor.cli:main"
+
+[tool.setuptools]
+packages = ["tremor"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
