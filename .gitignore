@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# dados brutos e saídas não vão para o repositório
+dados_brutos/
+patients/
+movement/
+saida*/
+*.zip
+.venv/
+*.egg-info/
+.pytest_cache/
