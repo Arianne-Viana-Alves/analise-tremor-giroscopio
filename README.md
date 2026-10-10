@@ -4,7 +4,7 @@
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
 ![Base](https://img.shields.io/badge/dados-PADS%20%2F%20PhysioNet-orange)
 
-Pipeline em Python para extrair características de sinais de giroscópio ou acelerômetro e comparar dois grupos de indivíduos (por exemplo, Doença de Parkinson vs. controles saudáveis). Foi desenvolvido para o artigo **"Discriminação entre indivíduos com Doença de Parkinson e controles saudáveis por meio da variabilidade do sinal de giroscópio em repouso"** (X SABIO, UFPE), com dados da base pública [PADS – Parkinson's Disease Smartwatch dataset](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/) (PhysioNet, DOI 10.13026/m0w9-zx22).
+Pipeline em Python para extrair características de sinais de giroscópio ou acelerômetro e comparar dois grupos de indivíduos (por exemplo, Doença de Parkinson vs. controles saudáveis). Foi desenvolvido para o artigo **"Discriminação entre indivíduos com Doença de Parkinson e controles saudáveis por meio da variabilidade do sinal de giroscópio em repouso"**, com dados da base pública [PADS – Parkinson's Disease Smartwatch dataset](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/) (PhysioNet, DOI 10.13026/m0w9-zx22).
 
 Os valores padrão reproduzem a análise do artigo. Todos os parâmetros (tarefa, punho, sensor, eixo, filtro, características, grupos, tamanho da amostra) podem ser trocados por linha de comando ou por um arquivo JSON, sem mexer no código.
 
